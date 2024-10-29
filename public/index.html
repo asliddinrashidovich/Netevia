@@ -3,9 +3,144 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Netevia</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="Icon" href="./images/title/favicon.png">
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
+
+  <div class="relative">
+    <!-- header start -->
+    <video autoplay loop class="absolute h-full w-full top-0 object-cover left-0 z-[1]" src="/public/vidios/spinning-worl.mp4"></video>
+    <header class="py-7 lg:py-10 relative z-10">
+      <div class="max-w-[1240px] px-5 mx-auto flex items-center justify-between  gap-7 ">
+        <button class="block lg:hidden">
+          <img src="./images/header/header_drobdown.svg" alt="header dropdown">
+        </button>
+        <a href="index.html" class="">
+          <img src="./images/header/header_logo.svg" alt="header logo">
+        </a>
+        <div>
+
+        </div>
+        <ul class="text-white  gap-6 pl-6 list-none hidden lg:flex">
+          <li>
+            <a href="#" class="font-[400] text-sm">Products</a>
+          </li>
+          <li>
+            <a href="#" class="font-[400] text-sm">Business Types</a>
+          </li>
+          <li>
+            <a href="#" class="font-[400] text-sm">Who Are We?</a>
+          </li>
+          <li>
+            <a href="#" class="font-[400] text-sm">Contact Us</a>
+          </li>
+          <li>
+            <a href="#" class="font-[400] text-sm">Pricing</a>
+          </li>
+        </ul>
+        <a href="#" class="ml-auto font-[400] text-sm text-white hidden lg:block">Sign in</a>
+        <a href="#" class="bg-[#187AC9] py-[10px] px-[24px] rounded-full font-[500] text-sm text-white padding hidden lg:block">Get Started</a>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- hero start -->
+    <section class="bg-[#121212] pb-[173px] lg:pb-[196px] pt-[100px] lg:pt-[129px]   realative">
+      <div class="max-w-[753px]  md:mx-auto px-5 text-start md:text-center z-10 relative">
+        <h1 class="font-[700] text-[45px] leading-[45px] lg:font-[600] lg:text-[60px] lg:leading-[66px]  text-white mb-[14px]">A Modern Approach to The ISO Industry</h1>
+        <p class="font-[400] text-[18px] leading-[24px] md:text-[20px] md:leading-[30px] text-white mb-7">Whether you are starting your first ISO or a veteran ready to scale your business, we have the tools you need to beat the competition.</p>
+        <a href="#" class="bg-white  py-[11px] px-6 rounded-full inline-flex items-center gap-2 font-[500] text-sm text-[#121212]">Get Started
+          <img src="./images/hero/arrow.svg" alt="button icon">
+        </a>
+      </div>
+    </section>
+
+    <!-- hero end -->
+  </div>
+
+  <!-- partners start -->
+  <section class="bg-[#1E1E1E] py-4 md:py-6">
+    <div class="max-w-[924px] mx-auto px-5 flex justify-between items-center">
+      <img src="./images/partners/partners_1.svg" alt="partner 1">
+      <img src="./images/partners/partners_2.svg" alt="partner 2">
+      <img src="./images/partners/partners_3.svg" alt="partner 3">
+      <img src="./images/partners/partners_4.svg" alt="partner 4">
+      <img src="./images/partners/partners_5.svg" class="hidden md:inline-block" alt="partner 5">
+    </div>
+  </section>
+
+  <!-- partners end -->
+  <section class="bg-[#121212] py-10 lg:py-14 relative">
+
+    <div class="max-w-main_container mx-auto px-5 grid grid-cols-1 lg:grid-cols-2">
+      <div class="w-full lg:w-[423px] pt-0 md:pt-14 mb-10">
+        <h2 class="font-[600] text-[32px] leading-9 text-white mb-7">New Revenue Streams With Netevia Business Banking Services</h2>
+        <p class="font-[500] text-sm lg:text-base   text-white mb-6">Earn new residual income from your merchant's account balances, card spend, and a one-time welcome bonus on newly activated and funded accounts.</p>
+        <a href="#" class="bg-white  py-[11px] px-6 rounded-full inline-flex items-center gap-2 font-[500] text-sm text-[#121212]">ISO Banking Program
+          <img src="./images/hero/arrow.svg" alt="button icon">
+        </a>
+      </div>
+      <div class="w-[657px] h-[611px] hidden lg:flex felx-col items-center relative lg:right-[120px] text-white">
+        <div class="flex">
+          <div style="background-color: transparent; background-image: linear-gradient(180deg, transparent, rgba(24, 122, 201, 0.7) 99.9%);" class="md:w-[361px] sm:w-[188px] w-[140px] md:h-[361px] h-[140px] sm:h-[188px] rounded-full flex items-center justify-center -rotate-90 realtive lg:absolute left-0 top-0 " >
+            <div class="max-w-[102px] md:max-w-[184px] text-center rotate-90 ">
+              <h3 class="font-600 text-[20px] leading-7 mb-4">Card Spend</h3>
+              <p class="font-400 text-sm leading-4 text-white">Earn new residual income on your merchant's Netevia Debit card spend.</p>
+            </div>
+          </div>
+          <div style="background-color: transparent; background-image: linear-gradient(180deg, transparent,rgba(24, 122, 201, 0.7) 99.9%);" class="md:w-[361px] sm:w-[188px] w-[140px] md:h-[361px] h-[140px] sm:h-[188px] rounded-full flex items-center justify-center rotate-90 absolute right-0 lg:right-0 lg:top-0">
+            <div class="max-w-[102px] md:max-w-[184px] text-center -rotate-90">
+              <h3 class="font-600 text-[20px] leading-7 mb-4">Account Balances</h3>
+              <p class="font-400 text-sm leading-4 text-white">Earn residual income
+                on your merchant's average account monthly balances.</p>
+            </div>
+          </div>
+        </div>
+        <div style="background-color: transparent; background-image: linear-gradient(180deg,transparent 10%,rgba(24, 122, 201, 0.7) 99.9% );" class="md:w-[361px] sm:w-[188px] w-[140px]  md:h-[361px] h-[140px] sm:h-[188px] rounded-full flex items-center justify-center rotate-180 absolute bottom-0 left-[22%]">
+          <div class="max-w-[102px] md:max-w-[184px] text-center mx-auto -rotate-180">
+            <h3 class="font-600 text-[20px] leading-7 mb-4">New Account Bonus</h3>
+            <p class="font-400 text-sm leading-4 text-white">Get paid a one-time upfront bonus on newly activated and funded accounts.</p>
+          </div>
+        </div>
+      </div>
+      <div class="w-full flex lg:hidden justify-center items-center ">
+        <div class="relative w-[343px] h-[319px] md:w-[657px] md:h-[611px] text-white">
+          <div class="flex">
+            <div style="background-color: transparent; background-image: linear-gradient(180deg, transparent, rgba(24, 122, 201, 0.7) 99.9%);" class="md:w-[361px] w-[188px] md:h-[361px] h-[188px] rounded-full flex items-center justify-center -rotate-90 realtive lg:absolute left-0 top-0  " >
+              <div class="max-w-[102px] md:max-w-[184px] text-center rotate-90 ">
+                <h3 class="font-600 text-[12px] md:text-xl leading-3 mb-4">Card Spend</h3>
+                <p class="font-400 text-[10px] md:text-base leading-3">Earn new residual income on your merchant's Netevia Debit card spend.</p>
+              </div>
+            </div>
+            <div style="background-color: transparent; background-image: linear-gradient(180deg, transparent,rgba(24, 122, 201, 0.7) 99.9%);" class="md:w-[361px]  w-[188px] md:h-[361px] h-[188px] rounded-full flex items-center justify-center rotate-90 absolute right-0 lg:right-0 lg:top-0">
+              <div class="max-w-[102px] md:max-w-[184px] text-center -rotate-90">
+                <h3 class="font-600 text-[12px] md:text-xl leading-3 mb-4">Account Balances</h3>
+                <p class="font-400 text-[10px] md:text-base leading-3">Earn residual income
+                  on your merchant's average account monthly balances.</p>
+              </div>
+            </div>
+          </div>
+          <div style="background-color: transparent; background-image: linear-gradient(180deg,transparent 10%,rgba(24, 122, 201, 0.7) 99.9% );" class="md:w-[361px] w-[188px]  md:h-[361px] h-[188px] rounded-full flex items-center justify-center rotate-180 absolute bottom-0 left-[22%]">
+            <div class="max-w-[102px] md:max-w-[184px] text-center mx-auto -rotate-180">
+              <h3 class="font-600 text-[12px] md:text-xl leading-3 mb-4">New Account Bonus</h3>
+              <p class="font-400 text-[10px] md:text-base leading-3">Get paid a one-time upfront bonus on newly activated and funded accounts.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- banking services end -->
+
   
+
+
+  <br><br><br>
+  <br><br><br>
+  <br><br><br>
+  <br><br><br>
 </body>
 </html>
