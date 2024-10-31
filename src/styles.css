@@ -7,9 +7,6 @@
 body {
   font-family: 'Noto Sans', sans-serif;
 }
-[alt] {
-  color: rgb(255, 187, 0)
-}
 
 @layer components{
   .main-header {
